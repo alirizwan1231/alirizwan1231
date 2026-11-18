@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" fill="none">
+  <defs>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1010 60) rotate(90) scale(340)">
+      <stop stop-color="#B8F135" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#B8F135" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fadeUp" x1="0" y1="430" x2="0" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A0C0A"/>
+      <stop offset="1" stop-color="#101408"/>
+    </linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" stroke="#F2F5EC" stroke-opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="430" rx="18" fill="url(#fadeUp)"/>
+  <rect width="1200" height="430" rx="18" fill="url(#grid)"/>
+  <rect width="1200" height="430" rx="18" fill="url(#glow)">
+    <animate attributeName="opacity" values="0.75;1;0.75" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="1" y="1" width="1198" height="428" rx="17" stroke="#B8F135" stroke-opacity="0.25" stroke-width="2"/>
+
+  <!-- rotating dashed ring, right side -->
+  <g opacity="0.9">
+    <circle cx="1005" cy="215" r="118" stroke="#B8F135" stroke-opacity="0.5" stroke-width="2" stroke-dasharray="4 14">
+      <animateTransform attributeName="transform" type="rotate" from="0 1005 215" to="360 1005 215" dur="40s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1005" cy="215" r="86" stroke="#F2F5EC" stroke-opacity="0.22" stroke-width="1.5" stroke-dasharray="60 26">
+      <animateTransform attributeName="transform" type="rotate" from="360 1005 215" to="0 1005 215" dur="30s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1005" cy="215" r="52" fill="#B8F135" fill-opacity="0.1" stroke="#B8F135" stroke-opacity="0.65" stroke-width="2"/>
+    <text x="1005" y="232" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="42" fill="#B8F135">AR</text>
+  </g>
+
+  <!-- top label -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.7s" begin="0.1s" fill="freeze"/>
+    <circle cx="66" cy="66" r="6" fill="#B8F135">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="86" y="73" font-family="'Courier New', monospace" font-size="19" letter-spacing="5" fill="#9AA48F">GITHUB · PORTFOLIO · LAHORE, PK</text>
+  </g>
+
+  <!-- name -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.8s" begin="0.35s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="0 16;0 0" dur="0.8s" begin="0.35s" fill="freeze"/>
+    <text x="62" y="196" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="104" letter-spacing="1" fill="#F2F5EC">ALI RIZWAN</text>
+  </g>
+
+  <!-- signature arch underline (draws itself) -->
+  <path d="M66 226 Q 330 268 594 226" stroke="#B8F135" stroke-width="7" stroke-linecap="round" fill="none" stroke-dasharray="560" stroke-dashoffset="560">
+    <animate attributeName="stroke-dashoffset" values="560;0" dur="1.1s" begin="0.9s" fill="freeze"/>
+  </path>
+
+  <!-- role -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.8s" begin="1.15s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="0 14;0 0" dur="0.8s" begin="1.15s" fill="freeze"/>
+    <text x="64" y="292" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="37" fill="#B8F135">Full-Stack Developer &amp; AI Builder</text>
+    <text x="64" y="334" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#C9D1BE">I build websites that turn visitors into customers.</text>
+  </g>
+
+  <!-- chips -->
+  <g opacity="0" font-family="'Courier New', monospace" font-size="17" fill="#F2F5EC">
+    <animate attributeName="opacity" values="0;1" dur="0.8s" begin="1.5s" fill="freeze"/>
+    <rect x="62" y="362" width="212" height="40" rx="20" fill="#12150F" stroke="#2A331F"/>
+    <text x="84" y="388">34+ REPOSITORIES</text>
+    <rect x="290" y="362" width="238" height="40" rx="20" fill="#12150F" stroke="#2A331F"/>
+    <text x="312" y="388">9 PRODUCTS SHIPPED</text>
+    <rect x="544" y="362" width="196" height="40" rx="20" fill="#12150F" stroke="#2A331F"/>
+    <text x="566" y="388">OPEN FOR WORK</text>
+    <circle cx="716" cy="382" r="5" fill="#B8F135">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
