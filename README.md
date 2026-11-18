@@ -1,10 +1,12 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0d1206&height=190&section=header&text=ALI%20RIZWAN&fontSize=62&fontColor=B8F135&animation=fadeIn&fontAlignY=40&desc=Full-Stack%20Developer%20%26%20AI%20Builder&descAlignY=62&descSize=19&descColor=F2F5EC" alt="Ali Rizwan — Full-Stack Developer & AI Builder" />
+<img width="100%" src="./assets/hero.svg" alt="Ali Rizwan — Full-Stack Developer & AI Builder" />
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1100&color=B8F135&center=true&vCenter=true&width=680&lines=I+build+websites+that+turn+visitors+into+customers.;Next.js+%C2%B7+React+%C2%B7+TypeScript+%C2%B7+Supabase;AI-powered+products%2C+built+end+to+end;WordPress+%26+WooCommerce+specialist" alt="What Ali builds" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1100&color=B8F135&center=true&vCenter=true&width=680&lines=Currently+shipping+QuoteRevive+%E2%80%94+dead-quote+revival;Building+3D+product+experiences+with+Three.js;Open+for+freelance+projects+worldwide" alt="What Ali is doing now" />
 
 </div>
+
+<img width="100%" src="./assets/marquee.svg" alt="Next.js · React · TypeScript · Supabase · Tailwind CSS · WordPress · WooCommerce · Three.js · AI Products" />
 
 ```text
 ali@github ~ $ ./whoami.sh
@@ -16,26 +18,71 @@ ali@github ~ $ ./whoami.sh
  ██║  ██║███████╗██║
  ╚═╝  ╚═╝╚══════╝╚═╝
 
- > Ali Rizwan — Full-Stack Developer & AI Builder
- > Based in Lahore, Pakistan · working with clients worldwide
+ > Ali Rizwan — Full-Stack Developer & AI Builder, Lahore, Pakistan
  > I design and ship complete products: landing pages that convert,
- >   dashboards, SaaS tools and AI-powered web apps.
- > Currently shipping: QuoteRevive · FlockCalc · a 3D product series
+ >   SaaS dashboards, e-commerce and AI-powered web apps.
+ > WordPress & WooCommerce specialist — now as a side service,
+ >   full-stack + AI is the main act.
 ```
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Full--Stack_Development-0A0C0A?style=for-the-badge&logo=nextdotjs&logoColor=B8F135" alt="Full-Stack Development" />
+<img src="https://img.shields.io/badge/AI_Products-0A0C0A?style=for-the-badge&logo=openai&logoColor=B8F135" alt="AI Products" />
+<img src="https://img.shields.io/badge/SaaS_Dashboards-0A0C0A?style=for-the-badge&logo=chartdotjs&logoColor=B8F135" alt="SaaS Dashboards" />
+<img src="https://img.shields.io/badge/WordPress_&_WooCommerce-0A0C0A?style=for-the-badge&logo=wordpress&logoColor=B8F135" alt="WordPress & WooCommerce" />
+<img src="https://img.shields.io/badge/UI_&_Redesign-0A0C0A?style=for-the-badge&logo=figma&logoColor=B8F135" alt="UI & Redesign" />
+
+</div>
 
 ## Featured work
 
-| Project | What it is | Live |
-| --- | --- | --- |
-| **[QuoteRevive](https://github.com/alirizwan1231/quoterevive)** | Dead-quote revival tool for home-service contractors — campaigns, reply board, Gmail send center | [quoterevive-cyan.vercel.app](https://quoterevive-cyan.vercel.app) |
-| **[NOIRÉ](https://github.com/alirizwan1231/noir-parfum)** | Luxury fragrance experience with a real-time 3D glass bottle — scroll acts, cap lift, live scent changes | [noir-parfum-theta.vercel.app](https://noir-parfum-theta.vercel.app) |
-| **[GymFlow](https://github.com/alirizwan1231/gymflow)** | Gym management SaaS — members, plans, attendance and a poster-grade dashboard | [gymflow-one-omega.vercel.app](https://gymflow-one-omega.vercel.app) |
-| **[DriveHub](https://github.com/alirizwan1231/drivehub)** | Dubai car-rental platform with a studio-style admin console | [drivehub-jade.vercel.app](https://drivehub-jade.vercel.app) |
-| **[PropSuite](https://github.com/alirizwan1231/propsuite)** | Dubai real-estate portal + agent CRM | [propsuite-beta.vercel.app](https://propsuite-beta.vercel.app) |
-| **[BuildTrack](https://github.com/alirizwan1231/buildtrack)** | Construction project OS — sites, tasks, materials, progress | [buildtrack-mauve-two.vercel.app](https://buildtrack-mauve-two.vercel.app) |
-| **[IdeaPilot](https://github.com/alirizwan1231/ideapilot)** | AI startup-idea validation with a guided onboarding wizard | [ideapilot-two.vercel.app](https://ideapilot-two.vercel.app) |
-| **[PRISM](https://github.com/alirizwan1231/prism)** | Brand & web studio site whose whole UI re-themes from 20 colour palettes | [prism-psi-sage.vercel.app](https://prism-psi-sage.vercel.app) |
-| **[FlockCalc](https://github.com/alirizwan1231/flockcalc)** | Small-flock calculators for backyard chicken keepers worldwide | [flockcalc.site](https://flockcalc.site) |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://gymflow-one-omega.vercel.app"><img width="100%" src="./assets/shots/gymflow.jpg" alt="GymFlow — gym management SaaS" /></a>
+      <br /><br />
+      <b><a href="https://github.com/alirizwan1231/gymflow">GymFlow</a></b> — Gym management SaaS: members, plans, attendance and a poster-grade analytics dashboard.
+      <br /><a href="https://gymflow-one-omega.vercel.app">Live demo</a> · <a href="https://github.com/alirizwan1231/gymflow">Code</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://drivehub-jade.vercel.app"><img width="100%" src="./assets/shots/drivehub.jpg" alt="DriveHub — Dubai car rental platform" /></a>
+      <br /><br />
+      <b><a href="https://github.com/alirizwan1231/drivehub">DriveHub</a></b> — Dubai car-rental platform with a studio-style admin console and 360° fleet views.
+      <br /><a href="https://drivehub-jade.vercel.app">Live demo</a> · <a href="https://github.com/alirizwan1231/drivehub">Code</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://propsuite-beta.vercel.app"><img width="100%" src="./assets/shots/propsuite.jpg" alt="PropSuite — Dubai real estate portal and CRM" /></a>
+      <br /><br />
+      <b><a href="https://github.com/alirizwan1231/propsuite">PropSuite</a></b> — Dubai real-estate portal + agent CRM: listings, leads and pipelines in one place.
+      <br /><a href="https://propsuite-beta.vercel.app">Live demo</a> · <a href="https://github.com/alirizwan1231/propsuite">Code</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://buildtrack-mauve-two.vercel.app"><img width="100%" src="./assets/shots/buildtrack.jpg" alt="BuildTrack — construction project OS" /></a>
+      <br /><br />
+      <b><a href="https://github.com/alirizwan1231/buildtrack">BuildTrack</a></b> — Construction project OS: sites, tasks, materials and progress tracking.
+      <br /><a href="https://buildtrack-mauve-two.vercel.app">Live demo</a> · <a href="https://github.com/alirizwan1231/buildtrack">Code</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://ideapilot-two.vercel.app"><img width="100%" src="./assets/shots/ideapilot.jpg" alt="IdeaPilot — AI startup idea validation" /></a>
+      <br /><br />
+      <b><a href="https://github.com/alirizwan1231/ideapilot">IdeaPilot</a></b> — AI startup-idea validation: a guided 6-step wizard that scores and stress-tests ideas.
+      <br /><a href="https://ideapilot-two.vercel.app">Live demo</a> · <a href="https://github.com/alirizwan1231/ideapilot">Code</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://prism-psi-sage.vercel.app"><img width="100%" src="./assets/shots/prism.jpg" alt="PRISM — design studio with live palette theming" /></a>
+      <br /><br />
+      <b><a href="https://github.com/alirizwan1231/prism">PRISM</a></b> — Brand & web studio site whose entire UI re-themes live from 20 curated colour palettes.
+      <br /><a href="https://prism-psi-sage.vercel.app">Live demo</a> · <a href="https://github.com/alirizwan1231/prism">Code</a>
+    </td>
+  </tr>
+</table>
+
+**More builds:** [QuoteRevive](https://github.com/alirizwan1231/quoterevive) — dead-quote revival for contractors ([live](https://quoterevive-cyan.vercel.app)) · [NOIRÉ](https://github.com/alirizwan1231/noir-parfum) — real-time 3D glass perfume bottle ([live](https://noir-parfum-theta.vercel.app)) · [FlockCalc](https://github.com/alirizwan1231/flockcalc) — small-flock calculators ([flockcalc.site](https://flockcalc.site)) · [Load Option Generator](https://github.com/alirizwan1231/Load-option) — truck-dispatch load tickets ([live](https://load-option.vercel.app))
 
 ## Tech I ship with
 
