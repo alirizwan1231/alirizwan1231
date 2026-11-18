@@ -70,7 +70,7 @@ ali@github ~ $ ./whoami.sh
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alirizwan1231/alirizwan1231/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alirizwan1231/alirizwan1231/output/snake.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alirizwan1231/alirizwan1231/output/snake-dark.svg" />
   <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/alirizwan1231/alirizwan1231/output/snake-dark.svg" />
 </picture>
 
